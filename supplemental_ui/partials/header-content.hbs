@@ -1,0 +1,37 @@
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{site.url}}/index.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{site.path}}/{{site.title}}/{{page.version}}/quick-start/quickstart-ingesting.html">Quick Start</a>
+            <a class="navbar-item" href="{{site.path}}/{{site.title}}/{{page.version}}/using/using-intrigue-intro.html">Using Intrigue {{site.path}}</a>
+            <a class="navbar-item" href="{{site.path}}/{{site.title}}/{{page.version}}/configuring/configuring-intrigue.html">Configuring Intrigue</a>
+            <a class="navbar-item" href="{{site.path}}/{{site.title}}/{{page.version}}/data-management/viewing-invalid.html">Data Management</a>
+            <a class="navbar-item" href="{{site.path}}/{{site.title}}/{{page.version}}/reference/map-standards.html">Reference</a>
+          </div>
+        </div>
+      {{#if env.DOCSEARCH_ENABLED}}
+        <div class="navbar-item">
+          <input id="search-input" type="text" placeholder="Search">
+        </div>
+      {{/if}}
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/codice/ddf-ui">Github</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

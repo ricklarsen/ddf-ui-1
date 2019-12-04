@@ -1,0 +1,58 @@
+site:
+  title: Intrigue
+  start_page: intrigue::index.adoc
+  url: https://ricklarsen.github.io/ddf-ui-1/
+content:
+  sources:
+  - url: https://github.com/ricklarsen/ddf-ui-content
+    branches: HEAD
+    start_path:
+ui:
+  bundle:
+   url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+   snapshot: true
+  supplemental_files: ./supplemental_ui
+asciidoc:
+  attributes:
+    toc: ~
+    external-link: '&raquo;'
+    branding: DDF
+    branding-lowercase: ddf
+    ddf-branding: DDF
+    ddf-branding-lowercase: ddf
+    ddf-branding-expanded: Distributed Data Framework
+    version: 3.0.0-SNAPSHOT
+    admin-console: Admin Console
+    secure_url: \https://localhost:8993
+    download-url: https://github.com/codice/ddf
+    home_directory: \https://localhost:8993
+    catalog-ui: Intrigue
+    command-console: Command Console
+    ddf-catalog: Catalog
+    ddf-registry: Registry
+    ddf-admin: Admin
+    ddf-spatial: Spatial
+    ddf-platform: Platform
+    ddf-security: Security
+    ddf-ui: Intrigue
+    ddf-solr: Solr
+    managing-prefix: _
+    reference-prefix: _
+    metadata-prefix: _
+    developing-prefix: _
+    using-prefix: _
+    fqdn: '{FQDN}'
+    port: '{PORT}'
+    username: '{username}'
+    auth_username: '{auth_username'
+    comments: '{comments}'
+    email: '{email}'
+    query: '{query}'
+    query_results: '{query_results}'
+    workspace_id: '{workspace_id}'
+    workspace_name: '{workspace_name}'
+    query_status: '{query_status}'
+    query_initiated_time: '{query_initiated_time}'
+    hardening-step: '*This Step Required for Security Hardening*'
+    at-symbol: '@'
+    source-highlighter: highlightjs
