@@ -1,0 +1,8 @@
+name: intrigue 
+version: 3.0.0-SNAPSHOT
+title: Intrigue 
+start_page: ROOT:index.adoc
+nav:
+- nav.adoc
+- modules/ROOT/nav.adoc
+

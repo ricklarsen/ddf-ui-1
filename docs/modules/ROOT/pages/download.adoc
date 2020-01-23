@@ -1,0 +1,22 @@
+= Downloads
+
+.Source Code
+****
+The Codice Foundation uses GitHub, the world's largest open-source community, to manage its collaboration and code management.
+
+https://github.com/codice/ddf[DDF on Github]
+****
+
+.Quick Start Guide
+****
+Basic xref:quickstart/quickstart-intro.html[instructions] for a test or sample installation.
+****
+
+.Latest Stable Release
+****
+[#stable-version]
+Link to latest version
+
+[#download-button]
+Fetching latest version...
+****

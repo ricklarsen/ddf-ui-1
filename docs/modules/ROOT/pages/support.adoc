@@ -1,0 +1,24 @@
+= Support
+
+== Online Discussion and Groups
+
+Subscribe to the following lists to receive notices about new releases and other important news from the project.
+
+.Mailing Lists
+[cols='2',options='header']
+|===
+|https://groups.google.com/forum/?fromgroups#!forum/ddf-users[DDF-Users]
+|This list is for users, questions about DDF, feature requests, discussions about the platform and its roadmap, etc.
+|https://groups.google.com/forum/?fromgroups#!forum/ddf-developers[DDF-Developers]
+|This list is for developers, questions about developing using DDF, feature requests, etc.
+|https://groups.google.com/forum/?fromgroups#!forum/ddf-announcements[DDF-Announcements]
+|This list is for DDF-related announcements, product releases, etc.
+|===
+
+== Documentation
+
+The xref:introduction/introduction.adoc[DDF Documentation page] is the best place to find up-to-date information.
+
+== Github Issues
+
+Track and report issues through https://github.com/codice/ddf/issues[Github Issues]

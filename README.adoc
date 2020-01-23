@@ -1,0 +1,3 @@
+= DDF UI
+
+include::docs/modules/ROOT/pages/index.adoc[]

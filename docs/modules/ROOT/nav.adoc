@@ -1,0 +1,4 @@
+
+.Intrigue Documentation
+* xref:index.adoc[how you doin]
+* xref:faq.adoc[Freakishly Apt Quicksand]
